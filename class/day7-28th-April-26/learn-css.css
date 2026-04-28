@@ -1,0 +1,86 @@
+/* selector {
+  property: value;
+} */
+/* CSS building blocks: selector, property, value.  */
+h1 {
+  color: aqua;
+  color: #4cb2b5;
+  color: rgb(214, 195, 195);
+  color: hsl(0, 20%, 83%);
+  color: rgba(255, 0, 0, 0.5);
+}
+
+/* 
+h1 - selector - selecting every h1 element in the document
+color - property - the aspect of the element we want to change, 
+    350+ properties available in CSS.
+red - value - the specific change we want to make to the property
+named colors, hex codes, rgb, hsl, etc. are different ways to specify color 
+values in CSS.
+
+https://meiert.com/indices/css-properties/
+https://www.w3.org/Style/CSS/all-properties.en.html
+
+https://css-tricks.com/nerds-guide-color-web/
+
+further reading:
+gradients, box shadows, accessible colors
+
+https://colorable.jxnblk.com/003f80/fffffe
+https://accessible-colors.com/
+
+get chrome extension.
+https://wave.webaim.org/
+https://www.youtube.com/watch?v=ITUDiTgAZY0&t=14s
+
+*/
+
+:root {
+  --brandColor: #eeeeee;
+  --h2Size: 20px;
+}
+
+body {
+  background: var(--brandColor);
+}
+
+h1 {
+  color: #255758;
+
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: var(--h2Size);
+  font-weight: normal;
+
+  text-align: left;
+
+  text-decoration: none;
+  /* text-decoration: line-through; */
+  text-transform: capitalize;
+
+  border: 3px dotted rgb(52, 119, 100);
+  border-radius: 12px;
+}
+
+/* parent css affects child elements but not the other way around. 
+This even works with large degrees of separation.  */
+div {
+  color: blue;
+}
+
+/* https://codepen.io/btholt/pen/ELaxOB */
+
+/* how to make two of the same tag be styled different */
+.my-brand {
+  color: orange;
+}
+
+.heading {
+  color: rgb(104, 216, 67);
+  font-size: bold;
+  text-decoration: underline;
+}
+
+.customize {
+  font-size: small;
+  color: red;
+}
