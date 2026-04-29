@@ -1,4 +1,4 @@
-why input tags are self-closing tags?
+why input tags is void element(self-closing) tags?
 
 difference between input type button and button tag? 
   <!-- <input type="button" value="Click Me &#128508;" /> -->

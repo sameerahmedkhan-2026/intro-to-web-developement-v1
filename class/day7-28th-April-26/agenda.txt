@@ -1,0 +1,14 @@
+css colors: named colors, hex codes, rgb, hsl, etc.
+check accessibility of colors. AA and AAA standards.
+hexa decimal system.
+
+CSS syntax and selectors: element, class selectors.
+
+you can add multiple classes to an element and they will be applied in the 
+order they are defined in the css file. (run file and show the output)
+
+css inheritance - how css properties are inherited by child elements 
+from parent elements.
+
+usage of :root selector
+
