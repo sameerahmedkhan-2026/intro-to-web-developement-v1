@@ -1,0 +1,7 @@
+how to import common css properties across css files in an html,css application.
+(show theme-switcher app as an example, check files in network tab, importance of order of loading)
+
+CSS syntax and selectors: pseudo classes, pseudo-element selectors, universal selector, 
+
+task: build product card as per the given design.
+

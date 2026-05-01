@@ -1,0 +1,38 @@
+/* Common CSS variables and resets */
+
+/* Light theme (default) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --card-bg: #f5f5f5;
+  --card-border: #ddd;
+  --btn-bg: #007bff;
+  --btn-text: #ffffff;
+}
+
+/* Dark theme */
+:root[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --card-bg: #2d2d2d;
+  --card-border: #444;
+  --btn-bg: #ffd700;
+  --btn-text: #1a1a1a;
+}
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}

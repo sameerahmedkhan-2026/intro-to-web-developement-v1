@@ -1,15 +1,11 @@
 css specificity (element, class, and id selectors) and 
 styles inheritance from parent elements in CSS.
-
-CSS syntax and selectors: id selectors.
 element selector is less specific than class selector and id selector. 
 !important declaration and how it can be used to override other styles but 
 it is generally not recommended to use as it can make the code harder to maintain and debug.
 
 usage of :root selector - defining global styles and variables in CSS.
 importance of variables in css and how to use them.
-
-using css variables and the :root selector to define global styles.
-(implement a theme switcher using css variables)
+implement a theme switcher using using css variables and the :root selector to define global styles.
 
 task: build product card as per the given design.

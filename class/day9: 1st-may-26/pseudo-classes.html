@@ -1,0 +1,177 @@
+<style>
+  .hover-example {
+    width: 100px;
+    height: 100px;
+    background-color: limegreen;
+    color: white;
+  }
+  .hover-example:hover {
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+  }
+</style>
+<div class="hover-example">Hover your mouse over me</div>
+<!-- <p>hover does not work in mobile devices, so don't put any logic here</p> -->
+
+<!-- https://css-tricks.com/pseudo-class-selectors/ -->
+
+<style>
+  .child-example {
+    color: crimson;
+  }
+  .child-example:nth-child(2n) {
+    color: limegreen;
+  }
+</style>
+<ol>
+  <li class="child-example">First</li>
+  <li class="child-example">Second</li>
+  <li class="child-example">Third</li>
+  <li class="child-example">Fourth</li>
+</ol>
+
+<!-- :active pseudo-class example -->
+<h3>:active (Click and hold)</h3>
+<style>
+  .active-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .active-btn:active {
+    background-color: #0056b3;
+    transform: scale(0.95);
+  }
+</style>
+<button class="active-btn">Click and hold me</button>
+
+<!-- :focus pseudo-class example -->
+<h3>:focus (Tab or click into input)</h3>
+<style>
+  .focus-input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  .focus-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 15px #007bff;
+  }
+</style>
+<input type="text" class="focus-input" placeholder="Click or tab here" />
+
+<!-- :enabled and :disabled pseudo-class example -->
+<h3>:enabled and :disabled</h3>
+<style>
+  .form-input {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+  }
+  .form-input:enabled {
+    background-color: #fff;
+  }
+  .form-input:disabled {
+    background-color: #e9ecef;
+    color: #999;
+    cursor: not-allowed;
+  }
+</style>
+<input type="text" class="form-input" placeholder="Enabled input" />
+<input type="text" class="form-input" placeholder="Disabled input" disabled />
+
+<!-- ::first-letter pseudo-element example -->
+<h3>::first-letter</h3>
+<style>
+  .first-letter-example {
+    font-size: 16px;
+  }
+  .first-letter-example::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    color: crimson;
+  }
+</style>
+<p class="first-letter-example">
+  The first letter of this paragraph is styled large and red.
+</p>
+
+<!-- ::first-line pseudo-element example -->
+<h3>::first-line</h3>
+<style>
+  .first-line-example {
+    width: 200px;
+  }
+  .first-line-example::first-line {
+    font-weight: bold;
+    /* color: limegreen; */
+  }
+</style>
+<p class="first-line-example">
+  This is the first line of a paragraph that will be styled. When the text wraps
+  to the second line, the style no longer applies.
+</p>
+
+pseudo elements: ::before and ::after
+<!-- https://css-tricks.com/almanac/pseudo-selectors/b/after-and-before/ -->
+<div class="chapter">This is a chapter of my book.</div>
+
+<div class="chapter">This is a second chapter of my book.</div>
+
+<style>
+  .chapter {
+    margin: 0;
+  }
+  .chapter::after {
+    content: "❦";
+    font-size: 50px;
+    text-align: center;
+    display: block;
+  }
+</style>
+
+<section class="specificity-explanation">
+  <h2>CSS Specificity: What "0 0 0 1" Means</h2>
+  <p>
+    CSS specificity is represented as four numbers:
+    <strong
+      >(inline, IDs, classes/attributes/pseudo-classes,
+      elements/pseudo-elements)</strong
+    >.
+  </p>
+  <ul>
+    <li>
+      <strong>"0 0 0 1"</strong> means: 0 inline styles, 0 ID selectors, 0
+      class/attribute/pseudo-class selectors, and 1 element selector — for
+      example, <code>p</code> or <code>h1</code>.
+    </li>
+    <li>
+      Examples:
+      <ul>
+        <li><code>h1 {}</code> → specificity <strong>0 0 0 1</strong></li>
+        <li>
+          <code>div p {}</code> → specificity <strong>0 0 0 2</strong> (two
+          element selectors)
+        </li>
+        <li>
+          <code>.card p {}</code> → specificity <strong>0 0 1 1</strong> (one
+          class and one element)
+        </li>
+      </ul>
+    </li>
+    <li>
+      Comparison rule: compare the four numbers left-to-right; the larger number
+      at the first difference wins.
+    </li>
+    <li>
+      <code>!important</code> overrides normal specificity. If multiple
+      <code>!important</code> rules conflict, specificity is compared among
+      them.
+    </li>
+  </ul>
+</section>

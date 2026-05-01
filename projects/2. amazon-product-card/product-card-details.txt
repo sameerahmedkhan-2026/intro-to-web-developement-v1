@@ -1,0 +1,27 @@
+build a product card as per the given design.
+page url: https://www.amazon.in/hz/mobile/mission/?_encoding=UTF8&p=0%2BuKAMBPuAJQousmgth4dJiht9LS0N46lK3pl80O0RES1EVzmvsscv8qRqNoDOvXyxlPiVR4D4YYge5E5iY79%2Bw6uJbf1ymt8kWbsF%2BoPh77TSUKssxJvq6SrETqMc9vC%2BOGvI6nPL4qiQoXLTUqrXOvFTLsfx0CcMlp9pCL3ZwbOFkWBFbPlCqOEuCBAE9v9IqTrVEdbNooZ11kJhh5pzvrWlhVgy3h%2FGvn1jezLvHeVJIc66t%2B689OYxNK9AR9vxEGDzX3g51JN8lepmnz1thoaZgr%2F1cA0OpVHnVIb0u7f%2B%2FsAr6uVI8dWj8XIurlwOj3aMpF%2Bj7SEBDL4BCDRjtA3xpcGgW8cznBMRk%2BxuOGfUWRxjoCVBC3dzoe8exx7iD3HTKTnPyOWZy1PitHi9QHG4uYL6yWmn1xw%2Fg%2FADyddIobM%2Ftn%2B6Lw4Wgz4dAzL5I1gFSdTDb8m3bsSW7XeAyYG3NsVfN89i759HnmmboX9ixtN1UhLkR%2BGLLjRA0LywPfwqqB1hVgcOhQNDI0ZWY8bvZ5ZBx3xWdpQBoGBknbo%2Fx8bem7PZFuQ8NPi6u9f8R5oZ4gylM%3D&pd_rd_w=7J9qT&content-id=amzn1.sym.3b239ffd-5a7d-4d5d-a2af-b2b512da4a2f%3Aamzn1.symc.7cb1f3f5-2abf-40fe-96b7-396919f9e492&pf_rd_p=3b239ffd-5a7d-4d5d-a2af-b2b512da4a2f&pf_rd_r=TI8VI7SO8UM8A8Y7TB9M&pd_rd_wg=icI6S&pd_rd_r=58ce9120-eea7-4378-a894-a02abb132a85&ref_=pd_hp_d_atf_ci_mcx_mi_
+
+following details to be included in the product card:
+develop only 1 product card and later we will enhance it.
+
+image url: https://m.media-amazon.com/images/I/3181mWtjrlL._MCnd_AC_.jpg
+
+productName: Kenstar
+productDescription: TallDe HC 45 L Room/Personal Air Cooler For Home| Honeycomb Pad |High Speed Fan |40 Ft Powerful Air Throw|Inverter compatible |Portable Cooler-Room|1-Yr Product Warranty|White & Black
+productPrice: ₹1,099.00 
+
+use background image, position to display stars from image.
+stars: 3.9 out of 5 stars
+
+noOfRatings: 19
+ 50+ bought in past month 
+ -26%
+ ₹7,789.00
+ ₹10,490.00
+
+ prime icon from icons png 
+
+ FREE delivery 
+ Mon, 4 May
+
+ Add to Cart
