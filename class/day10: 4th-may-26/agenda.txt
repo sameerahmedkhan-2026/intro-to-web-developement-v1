@@ -1,5 +1,5 @@
 (display: inline, block, inline-block, none)
-display none and visibility hidden difference.
+display:none and visibility:hidden difference.
 
 css box model: content, padding, border, margin 
 content - the actual content of the element, such as text or images.
