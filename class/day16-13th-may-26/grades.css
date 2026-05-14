@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* .column-1 {
+  background-color: rgb(95, 152, 202) !important; 
+} */
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead th {
+  background-color: black;
+  color: white;
+}
+
+tbody tr {
+  border: 1px solid lightgrey;
+  /* background-color: whitesmoke; */
+}
+tbody tr:hover {
+  background: lightblue;
+}
