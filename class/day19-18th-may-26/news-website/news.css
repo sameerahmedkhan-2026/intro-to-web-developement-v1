@@ -9,7 +9,6 @@
   list-style: none;
 
   border: 2px solid black;
-  padding: 32px;
   font-size: 24px;
   font-weight: bold;
   /* width: 100%; */
@@ -18,18 +17,25 @@
   border-bottom: none;
 }
 
+.site-section {
+  padding: 32px;
+}
+.site-section:hover {
+  background-color: rgb(233, 233, 238);
+}
 .section-link {
   text-decoration: none;
-  color: black;
+  color: rgb(75, 71, 71);
 }
 
 .section-link:hover {
   text-decoration: underline;
+  color: rgb(1, 1, 9);
+}
+.section-link:active {
+  color: rgb(1, 1, 9);
 }
 
-.news-articles {
-  /* display: flex; */
-}
 .article-img {
   max-height: 300px;
 }
